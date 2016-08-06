@@ -1,0 +1,16 @@
+{
+  "name": "Gateway-Receiving-Data",
+  "version": "1.0.0",
+  "description": "This is node.js file which is executed on Intel IoT gateway. It will receive all the data received through Xbee module.",
+  "main": "main.js",
+  "dependencies": {
+    "serialport": "^4.0.1",
+    "xbee-api": "^0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaghesh Patel",
+  "license": "ISC"
+}

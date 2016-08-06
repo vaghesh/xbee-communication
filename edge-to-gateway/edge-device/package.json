@@ -1,0 +1,16 @@
+{
+  "name": "Edge-Device-Sending-Data",
+  "version": "1.0.0",
+  "description": "This is node.js file which is executed on Intel Edison. It will collect data from temperature sensor and send it to Intel IoT Gateway viz Xbee module",
+  "main": "main.js",
+  "dependencies": {
+    "serialport": "^4.0.1",
+    "xbee-api": "^0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaghesh Patel",
+  "license": "ISC"
+}
